@@ -62,7 +62,7 @@ function nextSequence() {
 function animatePress(currentColor) {
   $("#" + currentColor).addClass("pressed");
   setTimeout(function () {
-    $("#" + currentColor).addClass("pressed");
+    $("#" + currentColor).removeClass("pressed");
   }, 100);
 }
 
